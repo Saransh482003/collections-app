@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return "Hello, World!"
 
-@app.route("/<month>")
+@app.route("/<year>")
 def hello_collection(year):
     generation = ""
     year = int(year)
