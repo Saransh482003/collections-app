@@ -1,16 +1,14 @@
-[
-    {
-        "builds": [
-            {
-                "src": "collection.py",
-                "use": "@vercel/python"
-            }
-        ],
-        "routes": [
-            {
-                "src": "/(.*)",
-                "dest": "/collection.py"
-            }
-        ]
-    }
-]
+{
+    "builds": [
+        {
+            "src": "collection.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/collection.py"
+        }
+    ]
+}
